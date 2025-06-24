@@ -155,7 +155,7 @@ public class GroupBySplitQueryingEnumerable<TKey, TElement>
                     _relationalQueryContext.Connection,
                     _relationalQueryContext.ParameterValues,
                     null,
-                    null,
+                    _relationalQueryContext.Context,
                     null, CommandSource.LinqQuery),
                 Guid.Empty,
                 (DbCommandMethod)(-1));
