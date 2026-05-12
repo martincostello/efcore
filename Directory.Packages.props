@@ -42,7 +42,7 @@
 
     <!-- SQL Server dependencies -->
     <PackageVersion Include="Microsoft.Data.SqlClient" Version="6.0.2" />
-    <PackageVersion Include="Microsoft.SqlServer.Types" Version="160.1000.6" />
+    <PackageVersion Include="Microsoft.SqlServer.Types" Version="170.1000.7" />
 
     <!-- external dependencies -->
     <PackageVersion Include="Castle.Core" Version="5.2.1" />
